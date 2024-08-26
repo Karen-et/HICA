@@ -1,0 +1,6 @@
+plugin:
+    name: 'innotech.hica::lang.plugin.name'
+    description: 'innotech.hica::lang.plugin.description'
+    author: innotech
+    icon: oc-icon-heartbeat
+    homepage: ''

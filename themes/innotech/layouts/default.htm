@@ -1,0 +1,17 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Sitio</title>
+    <link rel="stylesheet" href="{{ 'assets/css/styles.css' | theme }}">
+</head>
+<body>
+    <div id="wrapper">
+        {% partial 'sidebar' %}
+        <div id="content">
+            {% page %}
+        </div>
+    </div>
+</body>
+</html>
